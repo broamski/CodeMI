@@ -61,7 +61,7 @@ for key in fo:
 	fw.write(output_line + "\r\n")
 	#print(key + "," + facilityName + "," + county + "," + primaryRoute + "," + localRoute + "," + exitNumber + "," + quad + "," + capacity + "," + count + "," + surfaceType + "," + entranceSign + "," + light)
 
-	# Don't want to slam SOM's website...
+	# Don't want to slam SOM's boxes...
 	time.sleep(1)
 fw.close()
 fo.close()
